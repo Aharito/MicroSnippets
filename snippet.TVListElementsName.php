@@ -15,7 +15,7 @@
 
 $docid = $modx->documentIdentifier;
 
-$tv = $modx->getTemplateVar($tvid, '*', $docid, $documentObject['published']);
+$tv = $modx->getTemplateVar($tvid, '*', $docid, $modx->documentObject['published']);
 $tv_elements = explode("||", $tv['elements']);	
 
 $tv_array = array();
