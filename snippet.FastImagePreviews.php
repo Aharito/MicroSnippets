@@ -36,4 +36,3 @@ if (isset($_DocLister) && is_object($_DocLister)) {
 } else {
     return $modx->runSnippet('sgThumb', array('input'=>$input,'options'=>$options));
 }
-?>
