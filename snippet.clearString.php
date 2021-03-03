@@ -25,7 +25,7 @@ if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 
 
 <?php
-//[[cleanString? &str = `[*desc*]`]] к примеру для вывода description, с преобразованными кавычками
+//[[clearString? &str = `[*desc*]`]] к примеру для вывода description, с преобразованными кавычками
 
 if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 
